@@ -22,8 +22,8 @@ time.sleep(20)
 ##################### Provide Recepient Name Here ###############################
 driver.find_element_by_xpath("//*[@title='#TYPE THE RECIPIENT NAME, WHICH IS SAVED IN YOUR CONTACTS  ,,,, TYPE THE EXACT NAME#']").click()
 
-for joke in message:
-    driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]').send_keys(joke)
+for hehe in message:
+    driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]').send_keys(hehe)
     driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[3]/button/span').click()
     time.sleep(10)
 
